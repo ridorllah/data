@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<title> first code</title>
+<meta charset= "utf 8"/>
+<meta name= "viewport" content= "device=device-width", initial-scale="1"/>
+<link rel="stylesheet" href="index.css"> <title>Data</title>
+
+<header id="head">
+  <h1>NIGERIA DATA HOUSE</h1>
+  <h2>Welcome!</h2>
+  <p>To the federal republic of Nigeria oficial page!</p>
+  <img src="coat.jpg" alt="coat of arm" width="400" height="200">
+  <p>Current Date and Time is <span id='date-time'></span></p>
+</header>
+
+<div class= "topnav">
+     <a class="active" href="#home">Home</a>
+     <a href="#news">NIN reg</a>
+     <a href="#Voters">Voters Card</a>
+     <a href="#bdreg">Birth and Death reg</a>
+     <a href="#Passport">International Passport</a>
+     <a href ="new">News</a>
+     <a href="#about">Equiry</a>
+</div>
+
+<aricle id="Nimc">
+  <h2>NIN Registration</h2>
+  <p> Get you National identification number registered and delivered to your door step after its done</p>
+<button class="button">Start Reg</button>
+<img src="nimc.png" alt="nimc" width="500" height="200"> </br>
+</aricle>
+
+<aricle id="VCard">
+  <h2>Voters Card</h2>
+  <p> Get you National identification number registered and delivered to your door step after its done</p>
+<button class="button">Start Reg</button>
+<img src="inec.jpg" alt="inec" width="500" height="200"> </br>
+</aricle>
+
+<aricle id="BDreg">
+  <h2>Birth and Death Registration</h2>
+  <p>Register new born and death of a new memeber, and link yourself to your family here!</p>
+<img src="baby mama.jpg" alt="baby_mama" width="500" height="200"> </br>
+<button class="button">Start Reg</button>
+</aricle>
+
+<aricle id="Passport">
+  <h2>International passport reg</h2>
+  <p> Start your international passport booking online, register, capture, ang get date for is delivery</p>
+<img src="passport.jpg" alt="passport" width="500" height="200"> </br>
+<button class="button">Start Reg</button>
+</aricle>
+
+<aricle id="News">
+  <h2>News</h2>
+  <p>  NEWS is Notable Events, Weather, and Sport. The word 'news' provides information with regard to current or recent events occurring.</p>
+<img src="breaking-news.jpg" alt="breaking-news" width="500" height="200"> </br>
+<button class="button">Click for MORE</button>
+</aricle>
+
+  <div class="center">
+    <p>Click here to <a href="Sign" target="_blank"> Sign in</a></p>
+    <p>Already registered? log in below</p>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    <label for="bvn">BVN</label><br>
+    <input class="text" type="text" id="numb" name="bvn" max-lenght="11" placeholder= "35........." required><br>
+    <p id="demo"></p>
+    <label for="Surname">Surname</label><br>
+    <input class="text" type="text" id="surname" name="surname" placeholder="Surname" required><br>
+    <input class="submit" type="submit" value ="submit">
+    </form>
+    </div>
+<footer id ="footer">Nigeria 2022(c)</footer>
+<script src="mainjs.js"></script>
+</body>
+</html> 
